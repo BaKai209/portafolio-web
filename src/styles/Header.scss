@@ -1,0 +1,17 @@
+.header{
+    width: 100%;
+    display: flex;
+    position: absolute;
+    align-items: center;
+    z-index: 1;
+}
+
+.header__logo{
+    margin-left: 3.445rem;
+    display: flex;
+}
+
+.navbar{
+    margin: 0 auto;
+    display: flex;
+}
