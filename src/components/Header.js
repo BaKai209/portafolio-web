@@ -1,6 +1,8 @@
 import { Close, MenuOutlined } from '@material-ui/icons'
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
+import bakai from '../assets/logoBakai.png'
+
 import '../styles/Header.scss'
 
 const Header = () => {
@@ -15,7 +17,8 @@ const Header = () => {
     <div className='header'>
 
       <div className='header__logo'>
-        <h1>BaKai209</h1>
+        {/* <h1>Ba-Kai</h1> */}
+        <img src={bakai} alt="bakai-logo" className='logo'/>
       </div>
 
         <nav className={active ? 'navbar active' : 'navbar'}>

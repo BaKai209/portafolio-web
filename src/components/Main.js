@@ -18,22 +18,25 @@ const Main = () => {
             <p>Frond-end developer & Web designer.</p>
 
             <div className="icons">
-              <LinkedIn  className='icon'/>
-              <GitHub className='icon'/>
-              <Facebook className='icon'/>
-              <Instagram className='icon'/>
+              <LinkedIn className='icon' />
+              <GitHub className='icon' />
+              <Facebook className='icon' />
+              <Instagram className='icon' />
             </div>
 
-            <div className="button">
+            <div className="buttons">
               <button>See My Work</button>
               <button>Hire Me</button>
             </div>
 
           </div>
         </div>
+
         <div className="main__img">
           <img src={man} alt="imagen perfil" />
         </div>
+
+
 
       </div>
     </div>
