@@ -13,8 +13,10 @@ const Main = () => {
 
         <div className="main__content">
           <div className='text'>
-          <p>Front-End Developer & Tech Support Specialist</p>
-          <p>Desarrollador Front-End y Especialista en Soporte Técnico</p>
+            <p>Hey There !</p>
+            <h1>I Am Johan A. Mora</h1>
+            <p>Front-End Developer & Tech Support Specialist</p>
+            <p>Desarrollador Front-End y Especialista en Soporte Técnico</p>
 
             <div className="icons">
               <LinkedIn className='icon' />

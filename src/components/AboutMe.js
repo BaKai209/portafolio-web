@@ -15,12 +15,12 @@ const AboutMe = () => {
 
         <div className="section__content">
           <h1>Who is Johan</h1>
-          <p>5 years experience in Web Development</p>
-          <p>Professional UI & UX Designer</p>
-          <p>Project Manager at Google</p>
-          <p>8 years experience in Programming</p>
-          <p>Javascript Developer</p>
-          <p>React js Developer</p>
+          <p>Front-End Developer</p>
+          <p>Tech Support Specialist</p>
+          <p>Desarrollador Front-End</p>
+          <p>Especialista en Soporte Técnico</p>
+          <p>React.js & JavaScript</p>
+          <p>UI & Troubleshooting</p>
         </div>
 
       </div>
