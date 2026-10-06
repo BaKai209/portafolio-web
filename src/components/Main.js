@@ -1,6 +1,6 @@
 import { Facebook, GitHub, Instagram, LinkedIn } from '@material-ui/icons'
 import React from 'react'
-import man from '../assets/portada.png'
+import man from '../assets/portada.jpg'
 
 import '../styles/Main.scss'
 

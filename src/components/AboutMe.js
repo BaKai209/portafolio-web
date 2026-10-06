@@ -1,6 +1,6 @@
 import React from 'react'
 
-import man2 from '../assets/aboutMe.png'
+import man2 from '../assets/aboutMe.jpg'
 import '../styles/AboutMe.scss'
 
 
