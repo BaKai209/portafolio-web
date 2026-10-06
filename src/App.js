@@ -3,6 +3,7 @@ import AboutMe from './components/AboutMe';
 import Header from './components/Header';
 import Main from './components/Main';
 import Portfolio from './components/Portfolio';
+import ApiMonitor from './components/ApiMonitor';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
     <Main/>
     <AboutMe />
     <Portfolio />
+    <ApiMonitor/>
     </div>
   );
 }
