@@ -7,7 +7,10 @@
 }
 
 .header__logo{
-    margin-left: 3.445rem;
+    margin-left: .445rem;
+    font-size: large;
+    color: #00f0ff;
+    font-style:italic;
 }
 
 .logo{
@@ -16,7 +19,7 @@
 }
 
 .navbar{
-    margin: 0 auto;
+    margin: 0.5rem auto;
 }
 
 ul{
@@ -33,7 +36,7 @@ ul{
         color: #ffffff;
 
         &:hover{
-            border-bottom: 3px solid #00f0ff;
+            border-top: 3px solid #00f0ff;
         }
     }
 }

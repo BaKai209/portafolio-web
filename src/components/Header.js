@@ -1,7 +1,7 @@
 import { Close, MenuOutlined } from '@material-ui/icons'
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
-import bakai from '../assets/logoBakai.png'
+
 
 import '../styles/Header.scss'
 
@@ -18,7 +18,7 @@ const Header = () => {
 
       <div className='header__logo'>
         {/* <h1>Ba-Kai</h1> */}
-        <img src={bakai} alt="bakai-logo" className='logo'/>
+        <p>JOHAN MORA | TECH SUITE</p>
       </div>
 
         <nav className={active ? 'navbar active' : 'navbar'}>
@@ -43,10 +43,6 @@ const Header = () => {
 
             <li>
               <Link to='/'>Pages</Link>
-            </li>
-
-            <li>
-              <Link to='/'>Blog</Link>
             </li>
 
             <li>

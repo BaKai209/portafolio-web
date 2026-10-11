@@ -1,4 +1,4 @@
-import { Facebook, GitHub, Instagram, LinkedIn } from '@material-ui/icons'
+import { AlternateEmail, GitHub, LinkedIn, WhatsApp } from '@material-ui/icons'
 import React from 'react'
 import man from '../assets/portada.jpg'
 
@@ -13,16 +13,16 @@ const Main = () => {
 
         <div className="main__content">
           <div className='text'>
-            <p>Hey There !</p>
-            <h1>I Am Johan A. Mora</h1>
+            <p>¡ Greetings, visitor !</p>
+            <h1>My Name is Johan Mora. </h1>
             <p>Front-End Developer & Tech Support Specialist</p>
             <p>Desarrollador Front-End y Especialista en Soporte Técnico</p>
 
             <div className="icons">
-              <LinkedIn className='icon' />
-              <GitHub className='icon' />
-              <Facebook className='icon' />
-              <Instagram className='icon' />
+              <a href="https://www.linkedin.com/in/johan-mora-dev/?locale=en-US" target="_blank" rel="noreferrer"> </a> <LinkedIn className='icon' />
+              <a href="https://github.com/BaKai209" target="_blank" rel="noreferrer"></a><GitHub className='icon' />
+              <WhatsApp className='icon' />
+              <AlternateEmail className='icon' />
             </div>
 
             <div className="buttons">
