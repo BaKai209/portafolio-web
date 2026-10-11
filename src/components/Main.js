@@ -19,11 +19,20 @@ const Main = () => {
             <p>Desarrollador Front-End y Especialista en Soporte Técnico</p>
 
             <div className="icons">
-              <a href="https://www.linkedin.com/in/johan-mora-dev/?locale=en-US" target="_blank" rel="noreferrer"> </a> <LinkedIn className='icon' />
-              <a href="https://github.com/BaKai209" target="_blank" rel="noreferrer"></a><GitHub className='icon' />
-              <WhatsApp className='icon' />
-              <AlternateEmail className='icon' />
-            </div>
+  <a href="https://www.linkedin.com/in/johan-mora-dev/?isSelfProfile=true" target="_blank" rel="noreferrer">
+    <LinkedIn className='icon' />
+  </a>
+  <a href="https://github.com/BaKai209" target="_blank" rel="noreferrer">
+    <GitHub className='icon' />
+  </a>
+  <a href="https://wa.me/573026668432" target="_blank" rel="noreferrer">
+    <WhatsApp className='icon' />
+  </a>
+  <a href="mailto:ss24.sell@://gmail.com">
+    <AlternateEmail className='icon' />
+  </a>
+</div>
+
 
             <div className="buttons">
               <button>See My Work</button>
