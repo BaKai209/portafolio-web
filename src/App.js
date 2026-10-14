@@ -4,6 +4,9 @@ import Header from './components/Header';
 import Main from './components/Main';
 import Portfolio from './components/Portfolio';
 import ApiMonitor from './components/ApiMonitor';
+import EmergencySwitch from './components/EmergencySwitch';
+import PaymentSimulator from './components/PaymentSimulator';
+import UserSearch from './components/UserSearch';
 
 function App() {
   return (
@@ -13,6 +16,9 @@ function App() {
     <AboutMe />
     <Portfolio />
     <ApiMonitor/>
+    <EmergencySwitch/>
+    <PaymentSimulator/>
+    <UserSearch/>
     </div>
   );
 }
